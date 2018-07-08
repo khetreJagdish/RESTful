@@ -2,17 +2,17 @@
 package com.underdog.jersey.spring.example;
 
 import javax.ws.rs.ApplicationPath;
+
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.server.ServerProperties;
 import org.glassfish.jersey.server.spring.scope.RequestContextFilter;
 
 /**
  *
- * @author Paul Samsotha
+ * @author Jagdish Khetre
  */
 @ApplicationPath("/api")
-public class AppConfig extends ResourceConfig {
-    
+public class AppConfig extends ResourceConfig {    
     public AppConfig() {
         packages("com.underdog.jersey.spring.example.resource");
         register(RequestContextFilter.class);

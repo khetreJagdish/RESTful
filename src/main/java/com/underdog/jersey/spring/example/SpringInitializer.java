@@ -11,7 +11,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 
 /**
  *
- * @author Paul Samsotha
+ * @author Jagdish Khetre
  */
 @Order(1)
 public class SpringInitializer implements WebApplicationInitializer {

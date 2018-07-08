@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  *
- * @author Paul Samsotha
+ * @author Jagdish Khetre
  */
 @Configuration
 @EnableTransactionManagement

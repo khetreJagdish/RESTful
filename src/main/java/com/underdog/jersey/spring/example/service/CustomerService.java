@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author PaulSamsotha
+ * @author Jagdish Khetre
  */
 public interface CustomerService {
     List<Customer> findAll();

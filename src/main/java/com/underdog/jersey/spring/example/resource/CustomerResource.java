@@ -23,7 +23,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  *
- * @author Paul Samsotha
+ * @author Jagdish Khetre
  */
 @Path("customers")
 @Produces(MediaType.APPLICATION_JSON)
